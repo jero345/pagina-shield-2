@@ -1,0 +1,13 @@
+# Dependencies are installed by Vercel on Linux; never commit them (they contain OS-specific binaries).
+node_modules/
+
+# Build output
+dist/
+dist-single/
+
+# Local tooling
+.vercel/
+.env*
+*.log
+.DS_Store
+Thumbs.db
